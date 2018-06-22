@@ -4,7 +4,6 @@ AllCops:
     - Rakefile
     - db/**/*
     - config/**/*
-    - lib/tasks/**/*
     - bin/**/*
     - spec/**/*
     - vendor/**/*
@@ -13,6 +12,9 @@ AllCops:
 
 Rails:
   Enabled: true
+
+Lint/RescueWithoutErrorClass:
+  Enabled: false
 
 # we have not yet introcued ApplicationRecord as a Pattern
 Rails/ApplicationRecord:
