@@ -4,7 +4,7 @@
                     :sti_name,
                     :label,
                     { include_blank: true,
-                      selected: @group.default_role },
+                      selected: @type },
                     { class: 'chosen-select',
                       data: { remote: true,
                               url: details_group_roles_path(@group),
